@@ -25,7 +25,6 @@ namespace MatchGame
             InitializeComponent();
             SetUpGame();
         }
-
         private void SetUpGame()
         {
             List<string> animalEmoji = new List<string>()
