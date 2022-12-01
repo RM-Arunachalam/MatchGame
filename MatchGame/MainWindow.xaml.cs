@@ -38,7 +38,9 @@ namespace MatchGame
                 "🐕","🐕",
                 "🐄","🐄"
             };
+
             Random random = new Random();
+
             foreach(TextBlock textblock in MainGrid.Children.OfType<TextBlock>())
             {
                 int index = random.Next(animalEmoji.Count);
